@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 
 def index(request):
-    context = {"user_name": "Deekshit Kalakuntla"}
+    context = {"user_name": "Bhaskar Reddy Kodala"}
     return render(request, "index.html", context)
